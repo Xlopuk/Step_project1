@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.green-button {
+  padding: 10px 12px;
+  background-color: #0f8277;
+  font-weight: 700;
+  font-size: 16px;
+  color: #eeeeee;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.course-method {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0f8277;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000000;
+}
+
+.choose-program__card-bg {
+  width: 100%;
+  min-height: 270px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 24px;
+}
+
+.popular-courses__card-bg {
+  width: 100%;
+  min-height: 270px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 24px;
+}
+
+.card-info {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000000;
+}
+
+.more-info-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0f8277;
+  margin-top: 40px;
+}
+
+.more-info-link::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/popular-curses-green-arrow.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+label {
+  font-size: 22px;
+  line-height: 109%;
+  font-weight: 600;
+  color: #000000;
+}
+
+input {
+  width: 100%;
+  min-height: 48px;
+  background-color: #fdfdfd;
+  padding-left: 12px;
+  border: 1px solid #0f8277;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 104px;
+  background-color: #fdfdfd;
+  padding-left: 12px;
+  padding-top: 12px;
+  border: 1px solid #0f8277;
+  border-radius: 4px;
+  resize: none;
+}
